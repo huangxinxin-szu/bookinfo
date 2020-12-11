@@ -1,6 +1,6 @@
 name: bookinfo
-manifestType: helmGit
-resourcePath: ["charts/bookinfo"]
+manifestType: rawManifest
+resourcePath: ["manifest/templates"]
 
 preInstalls:
   - path: manifest/templates/pre-install/print-num-job-01.yaml
